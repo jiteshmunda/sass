@@ -6383,14 +6383,14 @@ input:focus-visible {
 /* Submenu Start */
 .nav-submenu {
   box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
-  min-width: 190px;
+  min-width: 300px;
   visibility: hidden;
   opacity: 0;
 }
 
 @media (min-width: 992px) {
   .nav-submenu {
-    max-height: 400px;
+    max-height: 450px;
     overflow-y: auto;
   }
 }
