@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="heading-black">
 
-<!-- Mirrored from wowtheme7.com/tf/sasstech/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Apr 2025 04:36:09 GMT -->
+<!-- Mirrored from wowtheme7.com/tf/sasstech/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Apr 2025 04:35:52 GMT -->
 
 <head>
     <meta charset="UTF-8">
@@ -26,6 +26,42 @@
     <link rel="stylesheet" href="assets/css/satoshi.css">
     <!-- Main css -->
     <link rel="stylesheet" href="assets/css/main.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        .custom-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: none;
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+            text-align: center;
+            padding-top: 1rem;
+        }
+
+        .custom-card::before {
+            content: "";
+            display: block;
+            height: 5px;
+            background: linear-gradient(90deg, #0d6efd, #6610f2);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .custom-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-icon {
+            font-size: 2.5rem;
+            color: #0d6efd;
+            margin-bottom: 1rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -483,7 +519,7 @@
                                 <span class="tw-mb-4">
                                     <img src="assets/images/logo/favicon-two.png" alt="Favicon Two">
                                 </span>
-                                <h1 class="mb-0 splitTextStyleOne text-capitalize"> Get In Touch</h1>
+                                <h1 class="mb-0 splitTextStyleOne text-capitalize">Designing</h1>
                             </div>
                         </div>
                     </div>
@@ -491,218 +527,533 @@
             </section>
             <!-- ==================== Breadcrumb End Here ==================== -->
 
-            <!-- ========================= Contact box section Start ============================ -->
-            <!-- <section class="bg-neutral-light-half style-two">
-            <div class="container">
-                <div class="bg-white tw-py-9 tw-px-8">
-                    <div class="row gy-4">
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="bg-white tw-rounded-lg tw-py-15 tw-px-5 common-shadow-thirteen hover-bg-main-600 group group-item text-center animation-item tw-transition tw-duration-200 h-100">
-                                <span class="tw-mb-705">
-                                    <img src="assets/images/icons/contact-icon1.svg" alt="Icon" class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat">
-                                </span>
-                                <h5 class="group-hover-text-white tw-transition tw-duration-200 tw-mb-5 text-capitalize splitTextStyleOne">address line</h5>
-                                <div class="max-w-250-px mx-auto">
-                                    <p class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne">Bowery St, New York, 37 USA NY 10013,USA</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="bg-white tw-rounded-lg tw-py-15 tw-px-5 common-shadow-thirteen hover-bg-main-600 group group-item text-center animation-item tw-transition tw-duration-200 h-100">
-                                <span class="tw-mb-705">
-                                    <img src="assets/images/icons/contact-icon2.svg" alt="Icon" class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat">
-                                </span>
-                                <h5 class="group-hover-text-white tw-transition tw-duration-200 tw-mb-5 text-capitalize splitTextStyleOne">Phone Number</h5>
-                                <div class="max-w-250-px mx-auto">
-                                    <a href="tel:+125556865234374221" class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne">+1255 - 568 - 6523 4374-221</a>
-                                    <a href="tel:+12555686523" class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne tw-mt-1">+1255 - 568 - 6523</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="bg-white tw-rounded-lg tw-py-15 tw-px-5 common-shadow-thirteen hover-bg-main-600 group group-item text-center animation-item tw-transition tw-duration-200 h-100">
-                                <span class="tw-mb-705">
-                                    <img src="assets/images/icons/contact-icon3.svg" alt="Icon" class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat">
-                                </span>
-                                <h5 class="group-hover-text-white tw-transition tw-duration-200 tw-mb-5 text-capitalize splitTextStyleOne">Mail Address</h5>
-                                <div class="max-w-250-px mx-auto">
-                                    <a href="mailto:enquiry@kusuminnovations.com" class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne">enquiry@kusuminnovations.com</a>
-                                    <a href="mailto:career@kusuminnovations.com" class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne">career@kusuminnovations.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-            <!-- ========================= Contact box section End ============================ -->
-
-            <!-- =============================== Contact Page section start =============================== -->
-            <section class="py-120">
+            <!-- ======================== Services Details Start ========================== -->
+            <section class="service-details py-120">
                 <div class="container">
-                    <div class="row gy-5">
-                        <div class="col-lg-6">
-                            <div class="pe-xl-5 pe-lg-4">
-                                <div class="">
-                                    <span
-                                        class="splitTextStyleTwo tw-text-xl fw-bold fst-italic text-decoration-underline text-main-600 tw-mb-305">Ready
-                                        to Stop Playing Small? </span>
-                                    <h3 class="splitTextStyleOne tw-mb-4">Contact Us</h3>
-                                    <p class="text-neutral-900">Your brand has potential — real potential. But potential
-                                        without action is just a missed opportunity. If you’re serious about scaling up,
-                                        standing out, and finally breaking through the noise, this is your moment.
+                    <div class="row gy-4">
 
-                                        We’re not here to sell you dreams. We’re here to build them with you — through
-                                        strategy, creativity, and relentless execution. </p>
-                                </div>
-                                <div class="xs-grid-cols-2 d-grid tw-mt-16 tw-gap-50-px">
-                                    <div class="d-flex align-items-start tw-gap-6">
-                                        <span class="tw-text-3xl text-main-600 d-flex">
-                                            <i class="ph-bold ph-map-pin"></i>
-                                        </span>
+                        <div class="col-xl-12 ps-xl-5">
+                            <div class="">
+                                <div class="row">
+                                    <h4 class="tw-mb-3 splitTextStyleOne">Creative. Strategic. Impactful. </h4>
+                                    <div class="col-md-6">
                                         <div class="">
-                                            <h6 class="tw-mb-4">Location</h6>
-                                            <p class="text-neutral-600">55 Main street, 2nd block, Melbourne, Australia
+
+                                            <p class="text-neutral-600">
+                                                At Kusum Innovations, we craft powerful visual designs that elevate your
+                                                brand and make a lasting impression. As a leading graphic design agency
+                                                in
+                                                Delhi, we offer a wide range of professional design services, including
+                                                logos, brochures, marketing materials, menu cards, and more. Our team
+                                                blends
+                                                creativity with strategy to help businesses stand out in a competitive
+                                                landscape—whether you're a startup, a restaurant, or a corporate
+                                                enterprise.
+                                            </p>
+                                            <p class="text-neutral-600">
+                                                We believe great design goes beyond aesthetics—it tells your story,
+                                                communicates your values, and connects with your audience on a deeper
+                                                level.
+                                                Every element we create is thoughtfully tailored to your brand identity
+                                                and
+                                                business goals. From concept to execution, we ensure consistency,
+                                                clarity,
+                                                and visual excellence across all platforms. With a client-first approach
+                                                and
+                                                a passion for innovation, we’re here to bring your creative vision to
+                                                life.
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="d-flex align-items-start tw-gap-6">
-                                        <span class="tw-text-3xl text-main-600 d-flex">
-                                            <i class="ph-bold ph-phone"></i>
-                                        </span>
-                                        <div class="">
-                                            <h6 class="tw-mb-4">Phone</h6>
-                                            <a href="tel:+1(368)5678954" class="text-neutral-600 hover-text-main-600">
-                                                +91-9873846683</a>
-                                            <a href="tel:+236(456)89622"
-                                                class="text-neutral-600 hover-text-main-600 tw-mt-1">+236 (456) 896
-                                                22</a>
+                                    <div class="col-md-6">
+                                        <center>
+                                            <img src="assets/images/thumbs/service-details-img.png" alt="Thumb">
+                                        </center>
+                                    </div>
+                                </div>
+
+                                <div class="tw-mt-8 d-flex flex-column tw-gap-12">
+                                    <!-- <div class="">
+                                        <h4 class="tw-mb-3 splitTextStyleOne">Creative. Strategic. Impactful. </h4>
+                                        <p class="text-neutral-600">
+                                            At Kusum Innovations, we craft powerful visual designs that elevate your
+                                            brand and make a lasting impression. As a leading graphic design agency in
+                                            Delhi, we offer a wide range of professional design services, including
+                                            logos, brochures, marketing materials, menu cards, and more. Our team blends
+                                            creativity with strategy to help businesses stand out in a competitive
+                                            landscape—whether you're a startup, a restaurant, or a corporate enterprise.
+                                        </p>
+                                        <p class="text-neutral-600">
+                                            We believe great design goes beyond aesthetics—it tells your story,
+                                            communicates your values, and connects with your audience on a deeper level.
+                                            Every element we create is thoughtfully tailored to your brand identity and
+                                            business goals. From concept to execution, we ensure consistency, clarity,
+                                            and visual excellence across all platforms. With a client-first approach and
+                                            a passion for innovation, we’re here to bring your creative vision to life.
+                                        </p>
+                                    </div> -->
+
+
+                                    <div class="row tw-mt-11 tw-mb-10">
+                                        <div class="col-md-3 mb-4">
+                                            <div class="card custom-card h-100 shadow-sm">
+                                                <div class="card-body">
+                                                    <i class="bi bi-brush card-icon"></i>
+                                                    <h4 class="card-title splitTextStyleOne">Branding & Logo Design</h4>
+                                                    <p class="card-text text-neutral-600">
+                                                        Make a bold first impression with our professional logo design
+                                                        services in Delhi. From modern logo design for startups
+                                                        to custom logo design with brand guidelines, we ensure your
+                                                        brand identity is sharp, memorable, and timeless. Our
+                                                        creative logo design agency in Delhi helps businesses of all
+                                                        sizes build credibility and improve visibility with
+                                                        eye-catching visuals.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-4">
+                                            <div class="card custom-card h-100 shadow-sm">
+                                                <div class="card-body">
+                                                    <i class="bi bi-megaphone card-icon"></i>
+                                                    <h5 class="card-title splitTextStyleOne">Brochures, Flyers &
+                                                        Marketing Collaterals</h5>
+                                                    <p class="card-text text-neutral-600">
+                                                        Boost visibility and engagement with high-quality marketing
+                                                        materials. Whether it’s a tri-fold brochure, a promotional
+                                                        flyer, or a corporate catalog, we offer brochure and flyer
+                                                        design services in Delhi that are visually stunning and
+                                                        content-rich. Ideal for product launches, events, or B2B
+                                                        marketing.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-4">
+                                            <div class="card custom-card h-100 shadow-sm">
+                                                <div class="card-body">
+                                                    <i class="bi bi-card-text card-icon"></i>
+                                                    <h5 class="card-title splitTextStyleOne">Menu Cards & Stationery
+                                                        Design</h5>
+                                                    <p class="card-text text-neutral-600">
+                                                        Enhance your professional image with well-designed business
+                                                        stationery and custom restaurant menus. From letterhead and
+                                                        business card design to menu card design for cafes and
+                                                        restaurants, we ensure your print materials reflect your brand’s
+                                                        identity and style.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-4">
+                                            <div class="card custom-card h-100 shadow-sm">
+                                                <div class="card-body">
+                                                    <i class="bi bi-journal card-icon"></i>
+                                                    <h5 class="card-title splitTextStyleOne">Magazine & Catalog Design
+                                                    </h5>
+                                                    <p class="card-text text-neutral-600">
+                                                        For publications and product catalogs, trust our team to deliver
+                                                        high-quality magazine layouts and editorial designs
+                                                        that captivate readers. We specialize in magazine design
+                                                        services in Delhi NCR for industries including fashion,
+                                                        education, and corporate branding.
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="d-flex align-items-start tw-gap-6">
-                                        <span class="tw-text-3xl text-main-600 d-flex">
-                                            <i class="ph-bold ph-envelope-simple"></i>
-                                        </span>
-                                        <div class="">
-                                            <h6 class="tw-mb-4">Email</h6>
-                                            <a href="mailto:enquiry@kusuminnovations.com"
-                                                class="text-neutral-500 hover-text-main-600">enquiry@kusuminnovations.com</a>
-                                            <a href="mailto:career@kusuminnovations.com"
-                                                class="text-neutral-500 hover-text-main-600">career@kusuminnovations.com</a>
-                                            <a href="mailto:artist@kusuminnovations.com"
-                                                class="text-neutral-500 hover-text-main-600">artist@kusuminnovations.com</a>
+
+
+                                    <div class="row align-items-start gx-4">
+                                        <div class="col-md-7">
+                                            <div class="position-relative w-100">
+                                                <img src="assets/images/thumbs/service-details-video-img.jpg"
+                                                    alt="Thumb" class="w-100 h-100 object-fit-cover">
+                                                <a href="https://www.youtube.com/watch?v=MFLVmAE4cqg"
+                                                    class="play-button bg-light-animation tw-w-75-px tw-h-75-px d-inline-flex justify-content-center align-items-center bg-white text-main-600 hover-text-main-two-700 rounded-circle tw-text-xl position-absolute tw-start-50 tw--translate-middle top-50 z-1">
+                                                    <i class="ph-fill ph-play"></i>
+                                                </a>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="d-flex align-items-start tw-gap-6">
-                                        <span class="tw-text-3xl text-main-600 d-flex">
-                                            <i class="ph-bold ph-share-network"></i>
-                                        </span>
-                                        <div class="">
-                                            <h6 class="tw-mb-4">Social</h6>
-                                            <ul
-                                                class="d-flex align-items-center tw-gap-3 justify-content-center tw-mt-6">
-                                                <li>
-                                                    <a href="https://www.facebook.com/kusuminnovations"
-                                                        class="tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200">
-                                                        <i class="ph ph-facebook-logo"></i>
-                                                    </a>
+                                        <div class="col-md-5">
+                                            <h4 class="tw-mb-3 splitTextStyleOne">Why Choose Kusum Innovations?</h4>
+                                            <!-- <p class="text-neutral-600">Lorem ipsum dolor sit amet, consectetur
+                                                adipisici sed do eiusmod tempor incididunt ut labore et </p> -->
+                                            <ul class="d-flex flex-column tw-gap-4 tw-mt-6">
+                                                <li class="d-flex align-items-center tw-gap-4" data-aos="fade-up"
+                                                    data-aos-duration="1000" data-aos-delay="200">
+                                                    <span class="text-main-600 d-flex"><i
+                                                            class="ph-bold ph-check"></i></span>
+                                                    <span class="text-neutral-600 fw-medium">
+                                                        Experienced graphic design professionals
+                                                    </span>
                                                 </li>
-                                                <li>
-                                                    <a href="https://x.com/kusuminnovation/ "
-                                                        class="tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200">
-                                                        <i class="ph ph-x-logo"></i>
-                                                    </a>
+                                                <li class="d-flex align-items-center tw-gap-4" data-aos="fade-up"
+                                                    data-aos-duration="1000" data-aos-delay="400">
+                                                    <span class="text-main-600 d-flex"><i
+                                                            class="ph-bold ph-check"></i></span>
+                                                    <span class="text-neutral-600 fw-medium">
+                                                        Timely delivery and customized solutions
+                                                    </span>
                                                 </li>
-                                                <li>
-                                                    <a href="https://www.instagram.com/kidpl2016/"
-                                                        class="tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200">
-                                                        <i class="ph ph-instagram-logo"></i>
-                                                    </a>
+                                                <li class="d-flex align-items-center tw-gap-4" data-aos="fade-up"
+                                                    data-aos-duration="1000" data-aos-delay="400">
+                                                    <span class="text-main-600 d-flex"><i
+                                                            class="ph-bold ph-check"></i></span>
+                                                    <span class="text-neutral-600 fw-medium">
+                                                        Cohesive design with a strong brand focus
+                                                    </span>
                                                 </li>
-                                                <li>
-                                                    <a href="https://www.youtube.com/@kusuminnovations"
-                                                        class="tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200">
-                                                        <i class="ph ph-youtube-logo"></i>
-                                                    </a>
+                                                <li class="d-flex align-items-center tw-gap-4" data-aos="fade-up"
+                                                    data-aos-duration="1000" data-aos-delay="400">
+                                                    <span class="text-main-600 d-flex"><i
+                                                            class="ph-bold ph-check"></i></span>
+                                                    <span class="text-neutral-600 fw-medium">
+                                                        Affordable pricing for startups and enterprises alike
+                                                    </span>
+                                                </li>
+                                                <li class="d-flex align-items-center tw-gap-4" data-aos="fade-up"
+                                                    data-aos-duration="1000" data-aos-delay="400">
+                                                    <span class="text-main-600 d-flex"><i
+                                                            class="ph-bold ph-check"></i></span>
+                                                    <span class="text-neutral-600 fw-medium">
+                                                        Trusted by clients across the globe
+                                                    </span>
+                                                </li>
+                                                <li class="d-flex align-items-center tw-gap-4" data-aos="fade-up"
+                                                    data-aos-duration="1000" data-aos-delay="400">
+                                                    <span class="text-main-600 d-flex"><i
+                                                            class="ph-bold ph-check"></i></span>
+                                                    <span class="text-neutral-600 fw-medium">
+                                                        Creative concepts backed by strategic thinking
+                                                    </span>
+                                                </li>
+                                                <li class="d-flex align-items-center tw-gap-4" data-aos="fade-up"
+                                                    data-aos-duration="1000" data-aos-delay="400">
+                                                    <span class="text-main-600 d-flex"><i
+                                                            class="ph-bold ph-check"></i></span>
+                                                    <span class="text-neutral-600 fw-medium">
+                                                        Consistent support from concept to final delivery
+                                                    </span>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
-                                </div>
 
-                                <!-- map Start -->
-                                <div class="map tw-mt-15">
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5591642.125572935!2d-118.45027922609367!3d46.81821123121407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5343f19fafa367dd%3A0xe0a08a08122c4da1!2sHelena-Lewis%20and%20Clark%20National%20Forest!5e0!3m2!1sen!2sbd!4v1731480188813!5m2!1sen!2sbd"
-                                        class="w-100" height="240" allowfullscreen="" loading="lazy"
-                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                </div>
-                                <!-- map End -->
-                            </div>
-                        </div>
 
-                        <div class="col-lg-6 ps-lg-5">
-                            <div class="bg-neutral-50 tw-py-17 tw-px-705">
-                                <h4 class="tw-mb-4">Fill out the form below. Let’s turn your ambition into impact.
-                                </h4>
-                                <p class="text-neutral-600 max-w-444-px">No fluff. No delays. Just results. </p>
-                                <form action="#" class="tw-mt-70-px d-flex flex-column tw-gap-12 form-submit">
-                                    <div class="position-relative">
-                                        <input type="text"
-                                            class="focus-outline-0 bg-transparent border-0 tw-pb-5 tw-ps-9 w-100 border-bottom border-neutral-200 focus-border-main-600"
-                                            placeholder="Your Name*" required>
-                                        <span
-                                            class="tw-text-xl d-flex text-neutral-500 position-absolute top-0 tw-start-0">
-                                            <i class="ph-bold ph-user"></i>
-                                        </span>
+                                    <!-- <p class="text-neutral-600">There are many variations of passages of lorem ipsum is
+                                        simply free text available in the market, but the majority time you put aside to
+                                        be in our office. Lorem ipsum dolor sit amet, consectetLorem ipsum dolor sit
+                                        amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                                        et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+
+                                    <div
+                                        class="bg-white border-start border-4 border-main-600 common-shadow-five tw-pb-4">
+                                        <h4
+                                            class="tw-mb-3 splitTextStyleOne tw-text-lg fw-medium text-main-two-600 tw-py-405 tw-px-6 ">
+                                            Let’s Design Your Vision</h4>
+                                        <p class="tw-text-lg fw-medium text-main-two-600 tw-px-6">
+                                            Bring your brand to life with designs that captivate, communicate, and
+                                            convert. Connect with the best graphic design
+                                            agency in Delhi NCR today — and let’s create something extraordinary
+                                            together.
+                                        </p>
                                     </div>
-                                    <div class="position-relative">
-                                        <input type="tel"
-                                            class="focus-outline-0 bg-transparent border-0 tw-pb-5 tw-ps-9 w-100 border-bottom border-neutral-200 focus-border-main-600"
-                                            placeholder="Phone Number*" required>
-                                        <span
-                                            class="tw-text-xl d-flex text-neutral-500 position-absolute top-0 tw-start-0">
-                                            <i class="ph-bold ph-phone"></i>
-                                        </span>
+
+                                    <!-- <div class="">
+                                        <h5 class="tw-mb-8">Eligibility checklist :</h5>
+                                        <div class="row gy-4">
+                                            <div class="col-sm-8">
+                                                <img src="assets/images/thumbs/service-details-img1.jpg" alt="Thumb"
+                                                    class="w-100 h-100 object-fit-cover">
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <img src="assets/images/thumbs/service-details-img2.jpg" alt="Thumb"
+                                                    class="w-100 h-100 object-fit-cover">
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <img src="assets/images/thumbs/service-details-img3.jpg" alt="Thumb"
+                                                    class="w-100 h-100 object-fit-cover">
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <img src="assets/images/thumbs/service-details-img4.jpg" alt="Thumb"
+                                                    class="w-100 h-100 object-fit-cover">
+                                            </div>
+                                        </div>
+                                    </div> -->
+
+                                    <h4 class="tw-mb-3 splitTextStyleOne">Frequently Asked Questions</h4>
+
+                                    <div class="accordion common-accordion style-two arrow-bg-orange"
+                                        id="accordionExample">
+                                        <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800">
+                                            <h5
+                                                class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                                <button
+                                                    class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseTwo" aria-expanded="true"
+                                                    aria-controls="collapseTwo">
+                                                    What types of design services do you offer?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseTwo" class="accordion-collapse collapse show"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body p-0 tw-mt-605 ">
+                                                    <p class="text-neutral-500 tw-leading-212">We provide logo design,
+                                                        brochures, flyers, stationery, menu cards, catalogs, and
+                                                        magazine designs for a variety of
+                                                        businesses.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800">
+                                            <h5
+                                                class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                                <button
+                                                    class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseOne" aria-expanded="false"
+                                                    aria-controls="collapseOne">
+                                                    Do you offer custom logo design packages for startups?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseOne" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body p-0 tw-mt-605 ">
+                                                    <p class="text-neutral-500 tw-leading-212">Yes, we specialize in
+                                                        custom logo design services in Delhi tailored for startups with
+                                                        modern aesthetics and strong brand
+                                                        guidelines.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800">
+                                            <h5
+                                                class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                                <button
+                                                    class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseThree" aria-expanded="false"
+                                                    aria-controls="collapseThree">
+                                                    Can you design marketing collaterals for an event or product launch?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseThree" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body p-0 tw-mt-605 ">
+                                                    <p class="text-neutral-500 tw-leading-212">Absolutely! We offer
+                                                        end-to-end design services for brochures, flyers, and posters
+                                                        that are ideal for promotional
+                                                        campaigns.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800">
+                                            <h5
+                                                class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                                <button
+                                                    class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseFour" aria-expanded="false"
+                                                    aria-controls="collapseFour">
+                                                    How long does the design process usually take?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseFour" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body p-0 tw-mt-605 ">
+                                                    <p class="text-neutral-500 tw-leading-212">The timeline varies
+                                                        depending on the project scope, but most designs are completed
+                                                        within 3–7 working days.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800">
+                                            <h5
+                                                class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                                <button
+                                                    class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseFive" aria-expanded="false"
+                                                    aria-controls="collapseFive">
+                                                    Are your designs delivered in print-ready formats and optimized for
+                                                    professional printing?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseFive" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body p-0 tw-mt-605 ">
+                                                    <p class="text-neutral-500 tw-leading-212">All final designs are
+                                                        delivered in high-resolution formats and print-ready layouts.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800">
+                                            <h5
+                                                class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                                <button
+                                                    class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseSix" aria-expanded="false"
+                                                    aria-controls="collapseSix">
+                                                    Can I request revisions during the design process?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseSix" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body p-0 tw-mt-605 ">
+                                                    <p class="text-neutral-500 tw-leading-212">Definitely! We offer
+                                                        multiple revision rounds to ensure your satisfaction with the
+                                                        final design.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800">
+                                            <h5
+                                                class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                                <button
+                                                    class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseSix" aria-expanded="false"
+                                                    aria-controls="collapseSix">
+                                                    Do you serve only Indian or International clients as well?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseSix" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
+                                                <div class="accordion-body p-0 tw-mt-605 ">
+                                                    <p class="text-neutral-500 tw-leading-212">While we’re based in
+                                                        Delhi NCR, India, we proudly serve clients across the globe with
+                                                        online collaboration and delivery.</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="position-relative">
-                                        <input type="email"
-                                            class="focus-outline-0 bg-transparent border-0 tw-pb-5 tw-ps-9 w-100 border-bottom border-neutral-200 focus-border-main-600"
-                                            placeholder="Email Address*" required>
-                                        <span
-                                            class="tw-text-xl d-flex text-neutral-500 position-absolute top-0 tw-start-0">
-                                            <i class="ph-bold ph-envelope"></i>
-                                        </span>
-                                    </div>
-                                    <div class="position-relative">
-                                        <textarea
-                                            class="focus-outline-0 bg-transparent border-0 tw-pb-5 tw-ps-9 w-100 border-bottom border-neutral-200 focus-border-main-600 tw-h-108-px"
-                                            placeholder="Enter Your Message here"></textarea>
-                                        <span
-                                            class="tw-text-xl d-flex text-neutral-500 position-absolute top-0 tw-start-0">
-                                            <i class="ph-bold ph-note-pencil"></i>
-                                        </span>
-                                    </div>
-                                    <div class="">
-                                        <button type="submit"
-                                            class="btn btn-main hover--translate-y-1 active--translate-y-scale-9 hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 rounded-0"
-                                            data-block="button">
-                                            <span class="button__flair"></span>
-                                            <span
-                                                class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
-                                                <i class="ph-bold ph-paper-plane-tilt"></i>
-                                            </span>
-                                            <span class="button__label">Submit Now</span>
-                                        </button>
-                                    </div>
-                                </form>
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- =============================== Contact Page section End =============================== -->
+            <!-- ======================== Services Details end ========================== -->
 
+            <!-- ================================= Task Management Section Start ============================== -->
+            <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
+                <div class="container">
+                    <div class="text-end tw--mb-40-px position-relative z-2">
+                        <img src="assets/images/thumbs/laptop-man.png" alt="Image" class="tw-me-84-px">
+                    </div>
+
+                    <div class="bg-green-deep tw-rounded-3xl bg-green-deep tw-pt-100-px position-relative z-1">
+                        <img src="assets/images/shapes/hill-shape.png" alt="Hill Shape"
+                            class="position-absolute w-100 h-100 top-0 tw-start-0 z-n1">
+                        <img src="assets/images/thumbs/task-management-img.png" alt="Image"
+                            class="position-absolute tw-end-0 top-0 tw-me-5 tw-mt-5 d-lg-block d-none">
+
+                        <div class="tw-mb-8 text-center max-w-570-px mx-auto">
+
+                            <h3 class="splitTextStyleOne text-white">
+                                Ready to Elevate Your Brand with Stunning Designs?
+                            </h3>
+                            <p class="tw-mt-4 text-white">
+                                Get in touch with Kusum Innovations today and let our expert designers craft visuals
+                                that captivate, communicate, and
+                                convert.
+                            </p>
+                            <!-- <div class="tw-py-3 tw-px-305 tw-mt-3 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max text-white bg-white-13"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                <div class="">
+                                    Up to <span class="text-yellow text-stroke-yellow">70%</span> off managed cloud
+                                    hosting
+                                </div>
+
+                            </div> -->
+
+                            <div class="d-none">
+                                <a href="javascript:void(0)"
+                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 rounded-0 tw-py-6 fw-bold tw-mt-7"
+                                    data-block="button">
+                                    <span class="button__flair"></span>
+                                    <div class="d-flex align-items-center tw-gap-2 z-1">
+                                        <span class="button__label">Download for free</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="d-block">
+                                <div class="d-flex align-items-center tw-gap-4 justify-content-center flex-wrap">
+                                    <a href="contact.html"
+                                        class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                                        data-block="button">
+                                        <span class="button__flair"></span>
+                                        <div class="d-flex align-items-center tw-gap-2 z-1">
+                                            <span class="button__label">Get Started</span>
+                                        </div>
+                                    </a>
+                                    <!-- <a href="javascript:void(0)"
+                                        class="hover--translate-y-1 active--translate-y-scale-9 btn hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                                        data-block="button">
+                                        <span class="button__flair"></span>
+                                        <div class="d-flex align-items-center tw-gap-2 z-1">
+                                            <span class="button__label">Get Started Trial</span>
+                                        </div>
+                                    </a> -->
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tw-pt-8 text-center">
+                            <!--
+                            <div
+                                class="myContainer position-relative d-flex flex-wrap align-items-center justify-content-center tw-gap-6 tw-pt-16 overflow-hidden w-100 tw-px-6">
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill">Project
+                                    management</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill">Technology</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Technology</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill">Project
+                                    management</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill">Technology</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Technology</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill">Project
+                                    management</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Technology</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill">Project
+                                    management</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-pink rounded-pill">Technology</span>
+                            </div>
+							-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ================================= Task Management Section End ============================== -->
 
             <!-- ========================== Footer Three Section Start ========================= -->
             <section class="footer-three bg-pink-more-light bg-neutral-light">
@@ -901,6 +1252,6 @@
 
 </body>
 
-<!-- Mirrored from wowtheme7.com/tf/sasstech/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Apr 2025 04:36:10 GMT -->
+<!-- Mirrored from wowtheme7.com/tf/sasstech/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Apr 2025 04:35:54 GMT -->
 
 </html>
